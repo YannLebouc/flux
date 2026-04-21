@@ -15,9 +15,9 @@ The user actions will be made through the CLI with commands.
 *This list is not exhaustive and will be completed as the developement goes on*
 
 - [ ] add command
-- [ ] substract command
-- [ ] total command
+- [ ] compute command
 - [ ] read the users command and call the corresponding actions
 - [ ] define the data structures
 - [ ] write the transactions to a json file to begin with
+- [ ] read the transactions file 
 - [ ] calculate and write total amout in the terminal
