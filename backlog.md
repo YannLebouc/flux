@@ -14,10 +14,11 @@ The user actions will be made through the CLI with commands.
 
 *This list is not exhaustive and will be completed as the developement goes on*
 
+- [x] read the users command
 - [ ] add command
 - [ ] compute command
-- [ ] read the users command and call the corresponding actions
+- [ ] call the action corresponding to the users command
 - [ ] define the data structures
 - [ ] write the transactions to a json file to begin with
-- [ ] read the transactions file 
+- [ ] read the transactions file
 - [ ] calculate and write total amout in the terminal
