@@ -3,6 +3,9 @@ package main
 import (
 	"fmt"
 	"os"
+	"time"
+
+	"github.com/google/uuid"
 )
 
 func main() {
@@ -30,5 +33,19 @@ func main() {
 		}
 	case "compute":
 		fmt.Println("compute action")
+	}
+
+	// transaction modelization
+
+	type Money struct {
+		cents    int64
+		currency string
+	}
+
+	type Transaction struct {
+		id          uuid.UUID
+		amount      Money
+		description string
+		date        time.Time
 	}
 }
